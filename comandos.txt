@@ -6,3 +6,7 @@ Instalar o Docker Desktop e ir em settings e ativar o Kubernetes
  kubectl describe pod nginx-pod  - dados do pod
  kubectl edit pod nginx-pod - para atualizar os dados
  kubectl apply -f .\primeiro-pod.yaml  - configura um pod declarativo com o arquivo yaml feito
+ kubectl delete pod nginx-pod   - deleta o pod
+ kubectl delete -f  .\primeiro-pod.yaml deleta o pod declarativo
+ kubectl exec -it portal-noticia -- bash            - entra no container
+ kubectl get pods -o wide   - ver o ip do pod
