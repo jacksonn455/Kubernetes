@@ -1,4 +1,8 @@
 Instalar o Docker Desktop e ir em settings e ativar o Kubernetes
 
+ kubectl get pods - mostra os pods instalado na maquina
+ kubectl get pods  --watch
  kubectl run nginx-pod --image=nginx:latest   - criar o pod
  kubectl describe pod nginx-pod  - dados do pod
+ kubectl edit pod nginx-pod - para atualizar os dados
+ kubectl apply -f .\primeiro-pod.yaml  - configura um pod declarativo com o arquivo yaml feito
