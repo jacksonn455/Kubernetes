@@ -8,4 +8,4 @@ Curso de Kubernetes
 - Defina variáveis de ambiente utilizando ConfigMaps
 
 --------------------
- ![]()
+ ![](https://github.com/jacksonn455/Kubernetes/blob/main/kube.png)
